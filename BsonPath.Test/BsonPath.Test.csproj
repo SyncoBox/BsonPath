@@ -17,4 +17,13 @@
       <ProjectReference Include="..\BsonPath\BsonPath.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Update="SmapleJson\Sample1.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="SampleJson\Sample1.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
 </Project>
